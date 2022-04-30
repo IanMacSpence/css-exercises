@@ -23,3 +23,8 @@ Quick tip: in VS Code, you can change which format colors are displayed in RGB, 
 - Do the odd numbered `p` elements share a class?
 - Do the even numbered `div` elements have unique IDs?
 - Does the Number 3 element have multiple classes?
+
+### Learning points:
+- Used font instead of font-family. Font can be used, but has more specifications than font-family, such as size and color. Use font-family when specifying multiple of just the font types.
+- played around with the inline css before adding it as a class. It didn't seem necessary to add a whole new class for just one small change, but did it using a class in the end because it's what the assignment asked for. 
+- classes are used for multiple elements you want to style with the same properties. IDs are used to style one specific element, usually when trying to distinguish them from other elements of the same type. 
