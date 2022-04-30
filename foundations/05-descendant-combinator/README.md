@@ -16,3 +16,7 @@ The properties you need to add are:
 ### Self Check
 - Do the elements that contain the text "This should be styled" have the correct styles applied?
 - Do the elements that contain the text "This should be unstyled" have no styles applied?
+
+### Things I learned
+- This lesson didn't even need to use a combinator to style the things that needed to be styled, which tells me that child elements probably inherit their ancestors' properties. I still used the combinator though because it's what the assignment asked for. 
+- Classes weren't even needed for this assignment because it could've been done simply using "div p {}" 
