@@ -13,10 +13,13 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 ### Self Check
 
 - The header is at the top of the page, the footer is at the bottom, and they stay in place if you resize your screen.
-- The header and footer have padding.
+-   The header and footer have padding.
 - The links in the header and footer are pushed to either side.
 - There is space between the links in the header and footer.
 - The footer has a light gray background (`#eeeeee`).
 - The logo, input and buttons are centered in the screen.
 - The buttons have an appropriate amount of padding.
 - There is space between the logo, input and buttons.
+
+### What I learned
+I did use a slightly different solution to TOP. They made their content div a flex box so they could align the elements in it. I didn't see that as being necessary because I could use text align and space-between to do the same thing. They targeted ul elements in their css whereas I targeted the right/left-link which I prefer as I feel you want to be as specific as possible, because if you for some reason decide you want a list later down the line, you're going to have to change it. 
